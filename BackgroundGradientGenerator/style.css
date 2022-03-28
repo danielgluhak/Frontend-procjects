@@ -17,12 +17,15 @@ h1 {
 }
 
 h3 {
-    font: 600 3.5em 'Raleway', sans-serif;
+    font: 200 3.5em 'Raleway', sans-serif;
+    font-size: small;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
+    transition: 2s;
 }
+
 
 input {
     padding: 0;
