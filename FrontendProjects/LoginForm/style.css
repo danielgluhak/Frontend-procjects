@@ -1,0 +1,52 @@
+html {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right top, rgb(0, 255, 238), rgba(3, 23, 7, 0.549));
+}
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background: rgba(148, 137, 131, 0.281);
+    padding: 15% 10%;
+    width: 30vw;
+    height: 50vh;
+    margin: 50% 50%;
+    transform: translate(-50%, -30%);
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.input-section {
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    height: 1.5rem;
+    width: 100%;
+    background: none;
+}
+
+#btn-login {
+    width: 60%;
+    margin-left: 50%;
+    margin-top: 1.5rem;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.input-section input {
+    background: none;
+    border: none;
+    outline: none; 
+}
