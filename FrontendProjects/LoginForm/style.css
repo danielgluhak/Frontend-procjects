@@ -1,52 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 html {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: auto 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
     background: linear-gradient(to right top, rgb(0, 255, 238), rgba(3, 23, 7, 0.549));
 }
-.form-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.container {
+    padding: 25vh;
 }
 
-form {
-    background: rgba(148, 137, 131, 0.281);
-    padding: 15% 10%;
-    width: 30vw;
-    height: 50vh;
-    margin: 50% 50%;
-    transform: translate(-50%, -30%);
+.form-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: 0 auto;
+    padding: 0;
 }
 
 h1 {
+    letter-spacing: .4rem;
     text-align: center;
-    color: whitesmoke;
+    color: rgba(243, 243, 243, 0.845);
 }
 
-.input-section {
+input {
+    letter-spacing: .15rem;
+    background: none;
     border: none;
-    border-bottom: 2px solid whitesmoke;
-    height: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.input-text {
+    border-bottom: 2px solid rgba(243, 243, 243, 0.845);
+    transition: all .2s;
+}
+
+.input-text:hover {
+    letter-spacing: .2rem;
+    
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 25vw;
     width: 100%;
-    background: none;
 }
 
-#btn-login {
-    width: 60%;
-    margin-left: 50%;
-    margin-top: 1.5rem;
-    transform: translate(-50%);
-    text-align: center;
+.wrap-text {
+    padding: 1.2vh 15px;
 }
 
-.input-section input {
-    background: none;
-    border: none;
-    outline: none; 
+.wrap-btn-login input {
+    padding: .8rem 5rem;
+    margin: 15px auto;
+    transition: all .2s;
+}
+
+.wrap-btn-login input:hover {
+    border-right: 2px solid rgba(243, 243, 243, 0.845);
+    border-left: 2px solid rgba(243, 243, 243, 0.845);
+    font-weight: 300;
+}
+
+.wrap-register {
+    align-self: flex-end;
+}
+
+#account-question {
+    color: rgba(243, 243, 243, 0.845);
+    letter-spacing: .1rem;
+    text-transform: lowercase;
+    font-weight: 100;
+    text-align: right;
+}
+
+#btn-signup {
+    margin-left: auto;
 }

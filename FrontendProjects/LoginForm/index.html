@@ -8,28 +8,28 @@
     <title>Login</title>
 </head>
 <body>
-
-    <div class="form-wrapper">
-        <div class="wrapper-element">
-            <form action="post">
-                <h1>Login</h1>
-                <div class="input-section">
-                    <input type="text" placeholder="Username">
-                    <br>
-                </div>
-                <div class="input-section">
-                    <input type="text" placeholder="Password">
-                    <br>
-                </div>
-                <input id="btn-login" type="submit" value="Login">
-                <div class="input-section">
-                    <p id="account-question">Don't have an account?</p>
-                    <a href="#">Sign up</a>
-                </div>
-            </form>
-        </div>
-        
+    <div class="container">
+    <div class="form-wrap">
+        <form action="post">
+            <div id="wrap-login">
+                <h1>Welcome back!</h1>
+            </div>
+            <div class="wrap-text">
+                <input type="text" name="" id="username" placeholder="Username" class="input-text">
+            </div>
+            <div class="wrap-text">
+                <input type="text" name="" id="password" placeholder="Password" class="input-text">
+            </div>
+            <div class="wrap-btn-login">
+                <input type="submit" name="" id="btn-login" value="Login">
+            </div>  
+            <div class="wrap-register">
+                <p id="account-question">Don't have an account?</p>
+                <a id="btn-signup" href="signup.html">Sign up!</a>
+            </div>
+        </form>
     </div>
+</div>
     
 </body>
 </html>
